@@ -50,7 +50,7 @@ ip admission max-nodata-conns 3
 !
 vtp file nvram:vlan.dat
 
-username matt privilege 15 password 0 matt
+username cisco privilege 15 password 0 cisco
 !
 !
 ip tcp synwait-time 5
