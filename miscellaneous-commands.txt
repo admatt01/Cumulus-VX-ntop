@@ -1,0 +1,8 @@
+
+debian@debian:~$ scp cumulus@leaf-1:leaf-1.txt /home/debian
+
+
+scp matt@inet-1:startup-config /home/debian/netconfigs/inet-1-startup-config.txt
+
+
+

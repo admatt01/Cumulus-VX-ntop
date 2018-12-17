@@ -1,0 +1,26 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# eth0 config
+auto eth0
+    iface eth0 inet static
+    address 10.0.50.10
+    netmask 255.255.255.0
+
+# eth1 config
+# This is the bridge interface to my home network. Change IP to suit your network
+auto eth1
+    iface eth1 inet static
+    address 192.168.20.100
+    netmask 255.255.255.0
+
+# eth2 config
+auto eth2
+    iface eth2 inet static
+    address 10.0.60.10
+    netmask 255.255.255.0
+    gateway 10.0.60.1

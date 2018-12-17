@@ -1,0 +1,16 @@
+127.0.0.1	localhost
+127.0.1.1	debian
+
+10.0.50.1 leaf-1
+10.0.50.2 leaf-2
+10.0.50.3 exit-leaf-1
+10.0.50.4 spine-1
+10.0.50.5 spine-2
+10.0.50.6 inet-1
+
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
